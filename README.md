@@ -1,6 +1,6 @@
 # freedman-financial
 
-### KanyeSaidWhat: 
+### Github: 
 <https://github.com/ajfreedm/freedman-financial>    
   
     
