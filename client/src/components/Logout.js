@@ -1,7 +1,7 @@
 function Logout() {
     return (
         <div>
-            
+         Logout   
         </div>
     )
 }
