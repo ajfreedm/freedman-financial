@@ -1,8 +1,8 @@
 function Footer() {
     return (
-        <div>
-          Footer  
-        </div>
+      <footer>
+      <div id="copyright">© Andrew Freedman 2021</div>
+    </footer>
     )
 }
 

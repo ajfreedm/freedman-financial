@@ -1,8 +1,11 @@
 function Account() {
     return (
-        <div>
-          Account  
-        </div>
+      <main>
+      <section id="account-wrapper">
+        <div id="account">$10,000</div>
+      </section>
+
+    </main>
     )
 }
 

@@ -1,9 +1,14 @@
 function Header() {
-    return (
-        <div>
-         Header   
-        </div>
-    )
+  return (
+    <div id="container">
+    <header>
+        <nav>
+            Header
+        </nav>
+    </header>
+    </div>
+
+  );
 }
 
-export default Header
+export default Header;
