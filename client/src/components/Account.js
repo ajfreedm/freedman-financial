@@ -10,10 +10,16 @@ function Account() {
     const axiosAccount = async () => {
       const response = await axios(url);
       setAccount(response.data);
+
+      
+      response.data ? console.log(JSON.stringify(response.data.records[0].fields.first)): console.log("");
+      response.data ? console.log(JSON.stringify(response.data.records[0].fields.last)): console.log("");
+      response.data ? console.log(JSON.stringify(response.data.records[0].fields.balance)): console.log("");
+    
     };
 
     axiosAccount();
-    console.log(JSON.stringify(account.records[0].fields));
+    
   }, []);
 
   //console.log(JSON.stringify(account.records[0].fields));
