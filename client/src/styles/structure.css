@@ -32,6 +32,31 @@ nav a {
 }
 
 
+
+#accountContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 200px 0 0 0;
+
+   
+}
+
+
+#accountContainer #account-wrap {
+    margin: 0 auto; 
+    width:300px;
+    background-color: #F5F5F5;
+    padding: 40px;
+    border: 2px solid #555577;
+    border-radius: 4px;
+ }
+
+
+
+
+
 footer {
     background-color: #555577;
     overflow: hidden;
