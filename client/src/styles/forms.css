@@ -46,7 +46,7 @@ button{
 /* Used guidance from https://www.w3schools.com/css/css_form.asp */
 
 form input, select, textarea, button {
-    width: 300px; 
+    width: 300px!important; 
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px; 

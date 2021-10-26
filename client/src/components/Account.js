@@ -1,24 +1,22 @@
-import axios from 'axios'
-import {useState, useEffect} from 'react'
+import axios from "axios";
+import { useState, useEffect } from "react";
 
-const url ="https://api.airtable.com/v0/appK4WDNdIvyVcUAu/Table%201?api_key=keygMy5j7EsXv29IM&filterByFormula=({username}='johndoe')"
+const url =
+  "https://api.airtable.com/v0/appK4WDNdIvyVcUAu/Table%201?api_key=keygMy5j7EsXv29IM&filterByFormula=({username}='johndoe')";
 function Account() {
+  const [account, setAccount] = useState([]);
 
-  
+  useEffect(() => {
+    const axiosAccount = async () => {
+      const response = await axios(url);
+      setAccount(response.data);
+    };
 
-    const [account, setAccount] = useState( [] );
-  
-    useEffect(() => {
-      const axiosAccount = async () => {
-        const response = await axios(url);
-        setAccount(response.data);
-      };
-        console.log(JSON.stringify(account));
-      axiosAccount();
-    }, []);
+    axiosAccount();
+    console.log(JSON.stringify(account.records[0].fields));
+  }, []);
 
-
-    
+  //console.log(JSON.stringify(account.records[0].fields));
 
   return (
     <main>
