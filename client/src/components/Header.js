@@ -1,10 +1,18 @@
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from 'react-router-dom'
+
 function Header() {
   return (
     <div id="container">
     <header>
-        <nav>
-            Header
-        </nav>
+      Andrew Freedman
+     <Link>Logout</Link>
+        
+        
     </header>
     </div>
 

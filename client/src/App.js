@@ -1,6 +1,12 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import "./App.css"
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from 'react-router-dom'
 
 
 
@@ -18,16 +24,27 @@ import Footer from  './components/Footer'
 function App() {
 
   return (
-    <div>
-    <Header />
-    <Logout />
-    <Login />
-    <Register />
-    <Account /> 
-    <Footer />
-    
-   
-    </div>
+    <Router>
+      <div id = 'componentsContainer'>
+        
+        <Switch>
+
+        <Route path = '/account'>
+          <Header/>
+          <Account />
+        </Route>
+
+        <Route path = '/register'>
+          <Register />
+        </Route> 
+
+        <Route path = '/'>
+          <Login />
+        </Route> 
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
