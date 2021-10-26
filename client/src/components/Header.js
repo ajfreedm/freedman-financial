@@ -1,3 +1,4 @@
+import '../styles/structure.css'
 import {
   BrowserRouter as Router,
   Switch,
@@ -7,13 +8,16 @@ import {
 
 function Header() {
   return (
-    <div id="container">
+    <div id="header-wrapper">
     <header>
-      Andrew Freedman
-     <Link>Logout</Link>
-        
-        
-    </header>
+    <nav>
+      <ul>    
+      <li>Andrew Freedman</li>
+     <li><Link>Logout</Link></li>
+     </ul>
+     </nav>
+      </header>
+      
     </div>
 
   );

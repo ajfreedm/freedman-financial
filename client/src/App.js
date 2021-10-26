@@ -25,7 +25,9 @@ function App() {
 
   return (
     <Router>
-      <div id = 'componentsContainer'>
+      
+      <div id = 'container'>
+      <main>
         
         <Switch>
 
@@ -42,8 +44,10 @@ function App() {
           <Login />
         </Route> 
         </Switch>
+        </main>
         <Footer />
       </div>
+      
     </Router>
   );
 }

@@ -1,18 +1,20 @@
 
 
-#container{
+/* #container{
     text-align: center;
 
-}
+} */
 
 #formContainer{
     display: flex;
     justify-content: center;
     width: 100%;
     height: auto;
-    margin: 0 auto;
+    margin: 200px 0 0 0;
     
 }
+
+
 
 form{
     display: flex;
@@ -27,5 +29,44 @@ button{
 
 .input{
     display: inline-block;
-    width: 50%;
+    /* width: 50%; */
 }
+
+
+/* Used guidance from https://www.w3schools.com/css/css_form.asp */
+
+form input, select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  form a.button {
+      width: 300px; 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+
+
+
+  form button {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  

@@ -1,0 +1,43 @@
+#container{
+    text-align: center;
+}
+
+main {
+    min-height: calc(100vh - 70px);
+  }
+
+
+nav {
+    
+    background-color: #494949;
+    overflow: hidden;
+    color: white;
+    
+}
+
+nav ul {
+    padding: 4px;
+    float: right;
+}
+
+nav li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: #494949;
+    overflow: hidden;
+    color: #ffffff;
+    text-align: center;
+    height: 70px;
+    font-size: 14px;
+    padding-top: 20px;
+  }
