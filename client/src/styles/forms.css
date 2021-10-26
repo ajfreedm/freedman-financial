@@ -1,9 +1,9 @@
 
 
-/* #container{
+ #container{
     text-align: center;
 
-} */
+} 
 
 #formContainer{
     display: flex;
@@ -11,9 +11,19 @@
     width: 100%;
     height: auto;
     margin: 200px 0 0 0;
-    
+
+   
 }
 
+
+#formContainer #form-wrap {
+    margin: 0 auto; 
+    width:300px;
+    background-color: #F5F5F5;
+    padding: 40px;
+    border: 2px solid #555577;
+    border-radius: 4px;
+ }
 
 
 form{
@@ -35,8 +45,8 @@ button{
 
 /* Used guidance from https://www.w3schools.com/css/css_form.asp */
 
-form input, select, textarea {
-    width: 100%; 
+form input, select, textarea, button {
+    width: 300px; 
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px; 

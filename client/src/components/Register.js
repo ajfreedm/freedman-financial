@@ -9,6 +9,7 @@ import {
 function Register() {
     return (
         <div id = 'formContainer'>
+            <div id="form-wrap">
            <form id = 'form'>
                 <input className = 'input' type = 'text' placeholder = 'Username'></input>  
                 <input className = 'input' type = 'text' placeholder = 'Password'></input> 
@@ -18,6 +19,7 @@ function Register() {
                 <Link className = 'button' to = '/'>Login</Link>
                 <button className = 'button' to = '/register'>Register</button>
             </form> 
+            </div>
         </div>
     )
 }
