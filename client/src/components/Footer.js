@@ -1,6 +1,6 @@
 function Footer() {
     return (
-      <footer>
+    <footer>
       <div id="copyright">© Andrew Freedman 2021</div>
     </footer>
     )

@@ -7,6 +7,7 @@ function Register() {
     return (
         <div id = 'formContainer'>
             <div id="form-wrap">
+            <h3 id="company">Freedman Financial</h3>
            <form id = 'form'>
                 <input className = 'input' type = 'text' placeholder = 'Username'></input>  
                 <input className = 'input' type = 'text' placeholder = 'Password'></input> 

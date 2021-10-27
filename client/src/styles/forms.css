@@ -10,7 +10,7 @@
     justify-content: center;
     width: 100%;
     height: auto;
-    margin: 200px 0 0 0;
+    margin: 100px 0 0 0;
 
    
 }
@@ -25,6 +25,11 @@
     border-radius: 4px;
  }
 
+ #formContainer #form-wrap h3#company {
+    color:#555577;
+    
+    }
+    
 
 form{
     display: flex;

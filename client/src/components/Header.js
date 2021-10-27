@@ -9,6 +9,7 @@ function Header(props) {
   return (
     <div id="header-wrapper">
     <header>
+      
     <nav>
       <ul>  
           
@@ -17,6 +18,7 @@ function Header(props) {
 
 
      <li><Link to = '/'>Logout</Link></li>
+     
      </ul>
      </nav>
       </header>
