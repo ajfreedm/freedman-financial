@@ -37,6 +37,11 @@ View Account - <https://whimsical.com/myaccount-NxtyVtdZrbYnvFMLXtHUAc> <br>
  ``` 
 
 ### MVP
+    - User can login to his mock bank account and see their balance
+    - Login requires authentication with username and password stored in Airtable
+    - User can register for a new account if they don't have one already. Credentials stored in airtable along with simple profile.
+    - User can logout of their account
+    - React router is used for navigation
 
 ### Post-MVP
 
