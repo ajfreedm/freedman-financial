@@ -44,8 +44,18 @@ View Account - <https://whimsical.com/myaccount-NxtyVtdZrbYnvFMLXtHUAc> <br>
     - React router is used for navigation
 
 ### Post-MVP
+    - User can deposit and withdraw funds from their accounts
 
 ### Project Schedule
+
+| Day     | Deliverable          | Status  |
+| ------------- |:-------------:| -----:|
+|       | Brainstorming and Wireframe  | Complete |
+|      | Poject Pitch and Approval  | Complete |
+|      | HTML Structure      |   Complete |
+|      | Javascript  | Complete |
+|       | debugging      |   Complete |
+|       | Flexbox / Media Queries      |    Complete | 
 
 ### Timeframes
 
