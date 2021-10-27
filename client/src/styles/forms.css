@@ -57,14 +57,17 @@ form input, select, textarea, button {
   }
   
   form a.button {
-      width: 300px; 
+    width: 300px; 
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px; 
     box-sizing: border-box; 
     margin-top: 6px;
     margin-bottom: 16px; 
-    resize: vertical 
+    resize: vertical;
+    background-color: #555577; 
+    color: white;
+    text-decoration: none;
   }
 
 
@@ -77,6 +80,10 @@ form input, select, textarea, button {
     box-sizing: border-box; 
     margin-top: 6px;
     margin-bottom: 16px; 
-    resize: vertical 
+    resize: vertical;
+    background-color: #555577;  
+    color: white;
+    text-decoration: none;
+
   }
   
