@@ -28,7 +28,7 @@ function App() {
 
   const [account, setAccount] = useState({
    // balance: 0,
-    balance: '10,000',
+    balance: '0',
     first: '',
     last: ''
   });

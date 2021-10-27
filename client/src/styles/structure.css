@@ -6,6 +6,21 @@ main {
     min-height: calc(100vh - 70px);
   }
 
+  header {
+    background-color: #555577;
+    color: #FFFFFF;
+  }
+
+header #company {
+    padding-top: 20px;
+    color: white;
+    float: left;
+    position: relative;
+    margin: 20px;
+    padding: 0px 10px 0px 10px;
+}
+
+
 
 nav {
     

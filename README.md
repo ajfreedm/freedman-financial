@@ -15,3 +15,15 @@ Register - <https://whimsical.com/register-8hNp1ZvPb6bCTwukyntrks>  <br>
 View Account - <https://whimsical.com/myaccount-NxtyVtdZrbYnvFMLXtHUAc> <br>
 
 ### Component Heirarchy
+
+### API
+
+### MVP
+
+### Post-MVP
+
+### Project Schedule
+
+### Timeframes
+
+### SWOT Analysis
