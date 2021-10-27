@@ -16,7 +16,25 @@ View Account - <https://whimsical.com/myaccount-NxtyVtdZrbYnvFMLXtHUAc> <br>
 
 ### Component Heirarchy
 
-### API
+### API Snippet:
+   Airtable API Result Snippet: 
+ ``` 
+{
+    "records": [
+        {
+            "id": "recLDpRMofGmbacun",
+            "fields": {
+                "username": "johndoe",
+                "first": "John",
+                "password": "12345",
+                "email": "johndoe@email.com",
+                "last": "Doe"
+            },
+            "createdTime": "2021-10-25T13:19:03.000Z"
+        }
+    ]
+}
+ ``` 
 
 ### MVP
 
