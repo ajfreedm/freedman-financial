@@ -1,23 +1,18 @@
 import '../styles/structure.css'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 
 
 
 
 
-function Header() {
+function Header(props) {
   return (
     <div id="header-wrapper">
     <header>
     <nav>
       <ul>    
-      <li>Andrew Freedman</li>
-     <li><Link>Logout</Link></li>
+      <li>{props.account.first + ' ' + props.account.last}</li>
+     <li><Link to = '/'>Logout</Link></li>
      </ul>
      </nav>
       </header>
