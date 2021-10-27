@@ -10,8 +10,12 @@ function Header(props) {
     <div id="header-wrapper">
     <header>
     <nav>
-      <ul>    
-      <li>{props.account.first + ' ' + props.account.last}</li>
+      <ul>  
+          
+      <li>John Doe</li>
+      {/*<li>{props.account.first + ' ' + props.account.last}</li>*/}
+
+
      <li><Link to = '/'>Logout</Link></li>
      </ul>
      </nav>

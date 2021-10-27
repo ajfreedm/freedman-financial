@@ -27,7 +27,8 @@ function App() {
   // "https://api.airtable.com/v0/appK4WDNdIvyVcUAu/Table%201?api_key=keygMy5j7EsXv29IM&filterByFormula=({username}='johndoe')";
 
   const [account, setAccount] = useState({
-    balance: 0,
+   // balance: 0,
+    balance: '10,000',
     first: '',
     last: ''
   });
