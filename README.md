@@ -1,7 +1,7 @@
 # freedman-financial
 
 ### Github: 
-<https://github.com/ajfreedm/freedman-financial>    
+<https://trusting-knuth-6858e0.netlify.app/>    
   
     
 ### App Description:
