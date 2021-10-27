@@ -1,7 +1,7 @@
 // import Register from './Register.js'
 import '../styles/forms.css'
 import {Link} from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { useEffect} from 'react';
 import axios from 'axios';
 
 function Login(props) {
