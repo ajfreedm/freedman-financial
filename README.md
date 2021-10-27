@@ -59,4 +59,16 @@ View Account - <https://whimsical.com/myaccount-NxtyVtdZrbYnvFMLXtHUAc> <br>
 
 ### Timeframes
 
+| Component        | Time Spent       
+| ------------- |:-------------:| 
+| Pseudocode Javascript      |  | 
+| Javascript Code      |       |  
+| Debugging with Console Log |       |  
+| HTML Stucture      | | 
+| DOM Manipulation      |       |  
+| CSS Styling |      |
+| Media Queries |      |  
+| Flexbox Implimentation      |  | 
+| Total      |       |    
+
 ### SWOT Analysis
