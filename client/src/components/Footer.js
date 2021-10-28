@@ -1,9 +1,9 @@
 function Footer() {
-    return (
+  return (
     <footer>
       <div id="copyright">© Andrew Freedman 2021</div>
     </footer>
-    )
+  );
 }
 
-export default Footer
+export default Footer;
