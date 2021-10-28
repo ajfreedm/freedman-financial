@@ -24,7 +24,7 @@ function Header(props) {
       <ul>  
           
       {/* <li>John Doe</li> */}
-      <li>{props.account.first + ' ' + props.account.last}</li>
+      <li id="name">{props.account.first + ' ' + props.account.last}</li>
 
 
      <li><Link onClick = {() => {clearState()}} to = '/'>Logout</Link></li>
