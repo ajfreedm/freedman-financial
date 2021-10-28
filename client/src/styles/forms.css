@@ -92,3 +92,25 @@ form input, select, textarea, button {
 
   }
   
+
+  @media only screen and (max-width: 600px) {
+    
+
+    main {
+        background-color: #F5F5F5;
+      }
+    
+
+
+    #formContainer #form-wrap {
+        border: none;
+        
+     }
+    
+     #formContainer{
+        margin: 0;
+    }
+  
+   
+  
+  }

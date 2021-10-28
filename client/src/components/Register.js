@@ -18,6 +18,7 @@ function Register() {
 
     function submitHandler(e) {
         e.preventDefault()
+        let email = document.getElementById('email').value
         let user = document.getElementById('username').value
         let pass = document.getElementById('password').value
         let last = document.getElementById('lastName').value
@@ -27,13 +28,13 @@ function Register() {
         axios.post('https://api.airtable.com/v0/appK4WDNdIvyVcUAu/Table%201?api_key=keygMy5j7EsXv29IM',{
             
                 "fields": {
-                    "email":'',
+                    "email":email,
                     "username": user,
                     "password": pass,
                     "last": last,
                     "first": first,
-                    "balance": num,
-                    "account": ''
+                    "balance": '',
+                    "account": num
                   }
             
         })
@@ -49,6 +50,7 @@ function Register() {
             <div id="form-wrap">
             <h3 id="company">Freedman Financial</h3>
            <form id = 'form' onSubmit = {(e) => {submitHandler(e)}}>
+                <input id = 'email' className = 'input' type='email' placeholder = 'Email'></input>
                 <input id = 'username' className = 'input' type = 'text' placeholder = 'Username'></input>  
                 <input id = 'password' className = 'input' type='password' placeholder = 'Password'></input> 
                 <input id = 'firstName' className = 'input' type = 'text' placeholder = 'First Name'></input>  
