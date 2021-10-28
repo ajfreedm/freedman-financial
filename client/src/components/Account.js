@@ -13,7 +13,7 @@ function Account(props) {
     <main>
       <div id="accountContainer">
         <div id="account-wrap">
-          <div id="account-number">Account Number: -555</div>
+          <div id="account-number">Account Number: {props.account.account}</div>
           <div id="account-ballance">Balance: ${props.account.balance}</div> 
         </div>
       </div>

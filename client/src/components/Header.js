@@ -6,6 +6,16 @@ import {Link} from 'react-router-dom';
 
 
 function Header(props) {
+
+  function clearState(){
+    props.setAccount({
+      balance: '0',
+      first: '',
+      last: ''
+    })
+    props.setRecords([])
+  }
+
   return (
     <div id="header-wrapper">
     <header>
@@ -17,7 +27,7 @@ function Header(props) {
       <li>{props.account.first + ' ' + props.account.last}</li>
 
 
-     <li><Link to = '/'>Logout</Link></li>
+     <li><Link onClick = {() => {clearState()}} to = '/'>Logout</Link></li>
      
      </ul>
      </nav>

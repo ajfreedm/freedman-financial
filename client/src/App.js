@@ -1,4 +1,4 @@
-import {useState } from 'react';
+import {useState, useEffect } from 'react';
 // import axios from 'axios';
 import "./App.css"
 import {
@@ -23,11 +23,9 @@ import Footer from  './components/Footer'
 
 
 function App() {
-  // const url =
-  // "https://api.airtable.com/v0/appK4WDNdIvyVcUAu/Table%201?api_key=keygMy5j7EsXv29IM&filterByFormula=({username}='johndoe')";
+ 
 
   const [account, setAccount] = useState({
-   // balance: 0,
     balance: '0',
     first: '',
     last: ''
@@ -35,24 +33,13 @@ function App() {
 
   const [records, setRecords] = useState([]);
 
+  useEffect(() => {
+    console.log(records.length)
+      // if(records.length){
+      //     window.location.href = '/account'
+      // }
+  })
 
-  // useEffect(() => {
-  //   const axiosAccount = async () => {
-  //     const response = await axios(url);
-  //     console.log(response)
-  //     // setAccount(response.data.records[0].fields);
-  //     // setRecords(response.data.records)
-      
-  //     // response.data ? console.log(JSON.stringify(response.data.records[0].fields.first)): console.log("");
-  //     // response.data ? console.log(JSON.stringify(response.data.records[0].fields.last)): console.log("");
-  //     // response.data ? console.log(JSON.stringify(response.data.records[0].fields.balance)): console.log("");
-    
-
-  //   };
-
-  //   axiosAccount();
-    
-  // }, []);
 
 
   return (
@@ -65,9 +52,9 @@ function App() {
 
         <Route path = '/account'>
           {
-            records.length === 0 ? <Redirect to = '/'/> : ""
+            !records.length ? <Redirect to = '/'/> : ""
           }
-          <Header account = {account}/>
+          <Header account = {account} setAccount = {setAccount} records = {records} setRecords = {setRecords}/>
           <Account account = {account} setAccount = {setAccount}/>
         </Route>
 
