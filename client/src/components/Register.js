@@ -24,6 +24,7 @@ function Register() {
         let last = document.getElementById('lastName').value
         let first = document.getElementById('firstName').value
         let num = threeNums()
+        let account = 'XXXX-XXXX-5555'
 
         axios.post('https://api.airtable.com/v0/appK4WDNdIvyVcUAu/Table%201?api_key=keygMy5j7EsXv29IM',{
             
@@ -33,8 +34,8 @@ function Register() {
                     "password": pass,
                     "last": last,
                     "first": first,
-                    "balance": '',
-                    "account": num
+                    "balance": num,
+                    "account": account
                   }
             
         })
