@@ -46,7 +46,7 @@ function Login(props) {
             <h3 id="company">Freedman Financial</h3>
            <form id = 'form'>
                 <input id = 'username' className = 'input' type = 'text' placeholder = 'Username'></input>  
-                <input id = 'password' className = 'input' type = 'text' placeholder = 'Password'></input>   
+                <input id = 'password' className = 'input' type='password' placeholder = 'Password'></input>   
                 <Link onClick = {() => {axiosAccount()}} className = 'button' to = '/account'>Login</Link>
                 <Link className = 'button' to = '/register'>Register</Link>
             </form> 

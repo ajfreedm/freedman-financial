@@ -50,7 +50,7 @@ function Register() {
             <h3 id="company">Freedman Financial</h3>
            <form id = 'form' onSubmit = {(e) => {submitHandler(e)}}>
                 <input id = 'username' className = 'input' type = 'text' placeholder = 'Username'></input>  
-                <input id = 'password' className = 'input' type = 'text' placeholder = 'Password'></input> 
+                <input id = 'password' className = 'input' type='password' placeholder = 'Password'></input> 
                 <input id = 'firstName' className = 'input' type = 'text' placeholder = 'First Name'></input>  
                 <input id = 'lastName' className = 'input' type = 'text' placeholder = 'Last Name'></input>
                   
