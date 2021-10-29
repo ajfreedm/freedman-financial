@@ -1,6 +1,4 @@
 function Account(props) {
-  //console.log(JSON.stringify(account.records[0].fields));
-
   return (
     <main>
       <div id="accountContainer">
