@@ -1,6 +1,3 @@
-// import axios from "axios";
-// import { useState, useEffect } from "react";
-
 function Account(props) {
   //console.log(JSON.stringify(account.records[0].fields));
 
