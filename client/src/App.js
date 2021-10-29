@@ -34,10 +34,7 @@ function App() {
   const [records, setRecords] = useState([]);
 
   useEffect(() => {
-    console.log(records.length)
-      // if(records.length){
-      //     window.location.href = '/account'
-      // }
+    
   })
 
 
@@ -47,12 +44,13 @@ function App() {
       
       <div id = 'container'>
       <main>
+        {records.length && <Redirect to = '/account'/> }
         
         <Switch>
 
         <Route path = '/account'>
           {
-            !records.length ? <Redirect to = '/'/> : ""
+            !records.length && <Redirect to = '/'/> 
           }
           <Header account = {account} setAccount = {setAccount} records = {records} setRecords = {setRecords}/>
           <Account account = {account} setAccount = {setAccount}/>
@@ -63,6 +61,7 @@ function App() {
         </Route> 
 
         <Route path = '/'>
+          {/* <div>{records.length}</div> */}
           <Login account = {account} setAccount = {setAccount} records = {records} setRecords = {setRecords} />
         </Route> 
         </Switch>
