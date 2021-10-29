@@ -1,6 +1,6 @@
 # freedman-financial
 
-### Github: 
+### Netlify: 
 <https://trusting-knuth-6858e0.netlify.app/>    
   
     

@@ -1,3 +1,4 @@
+
 #container {
   text-align: center;
 }
@@ -5,6 +6,13 @@
 main {
   min-height: calc(100vh - 70px);
 }
+
+
+/* This is a temp fix */
+main {
+  color: white;
+}
+
 
 header {
   background-color: #555577;
@@ -47,6 +55,7 @@ nav a {
   width: 100%;
   height: auto;
   margin: 100px 0 0 0;
+  color: #000000;
 }
 
 #accountContainer #account-wrap {

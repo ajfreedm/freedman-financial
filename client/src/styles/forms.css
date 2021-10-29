@@ -1,5 +1,6 @@
 #container {
   text-align: center;
+  color: #000000;
 }
 
 #formContainer {
@@ -8,6 +9,7 @@
   width: 100%;
   height: auto;
   margin: 100px 0 0 0;
+  color: #000000;
 }
 
 #formContainer #form-wrap {
