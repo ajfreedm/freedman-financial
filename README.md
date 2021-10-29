@@ -73,3 +73,5 @@ View Account - <https://whimsical.com/myaccount-NxtyVtdZrbYnvFMLXtHUAc> <br>
 | Total      |   30hr    |    
 
 ### SWOT Analysis
+
+    My strengths in this project are mostly because I have an exact idea of what I want to accomplish and the psuedo code I came up with is straightforward and adoesn't foresee any obstacles. My weaknesses is the code itself, I will need to rely heavily on various documentation to write the code I need for the outcome of the project to be successful. This can be a opportunity as well to strengthen my knowlege of the concepts I will be implimenting in my project.
