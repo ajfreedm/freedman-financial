@@ -50,12 +50,13 @@ View Account - <https://whimsical.com/myaccount-NxtyVtdZrbYnvFMLXtHUAc> <br>
 
 | Day     | Deliverable          | Status  |
 | ------------- |:-------------:| -----:|
-|       | Brainstorming and Wireframe  | Complete |
-|      | Poject Pitch and Approval  | Complete |
-|      | HTML Structure      |   Complete |
-|      | Javascript  | Complete |
-|       | debugging      |   Complete |
-|       | Flexbox / Media Queries      |    Complete | 
+|  10/22     | Brainstorming and Wireframe  | Complete |
+|   10/22   | Poject Pitch and Approval  | Complete |
+|   10/25   | HTML Structure      |   Complete |
+|   10/26   | React | Pending |
+|   10/27   | React | Pending |
+|    10/28    | debugging      |   Complete |
+|    10/28    | Flexbox / Media Queries      |    Complete | 
 
 ### Timeframes
 
