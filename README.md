@@ -62,14 +62,14 @@ View Account - <https://whimsical.com/myaccount-NxtyVtdZrbYnvFMLXtHUAc> <br>
 
 | Component        | Time Spent       
 | ------------- |:-------------:| 
-| Pseudocode Javascript      |  | 
-| Javascript Code      |       |  
-| Debugging with Console Log |       |  
-| HTML Stucture      | | 
-| DOM Manipulation      |       |  
-| CSS Styling |      |
-| Media Queries |      |  
-| Flexbox Implimentation      |  | 
-| Total      |       |    
+| Pseudocode React      | 3hr | 
+| React Code      |  10hr     |  
+| Debugging with Console Log |   6hr    |  
+| HTML Stucture      | 3hr | 
+| DOM Manipulation      |   1hr    |  
+| CSS Styling |   3hr   |
+| Media Queries |    1hr  |  
+| Flexbox Implimentation      | 3hr | 
+| Total      |   30hr    |    
 
 ### SWOT Analysis
